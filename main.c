@@ -4,7 +4,7 @@
 
 #include "elf.c"
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]) /* might make it accept cmdline arguments later */
 {
   struct elf *p;
   
