@@ -8,5 +8,8 @@ int main(int argc, char *argv[])
 {
   struct elf *p;
   
-  p = 
+  p = init_elf(p);
+  print_elf(p);
   
+  return 0;
+}
